@@ -1,0 +1,194 @@
+{
+
+    "url":    {
+        "production": {
+            "baseUrl": "https://minha-url.com/rest",
+            "url.recuperarsenha":"{baseUrl}/mobile/recuperar-senha"
+        }
+    },
+
+  "manifestacoes": [
+    {
+
+      "municipio": "Alexania",
+      "titulo": "Envio de Carga",
+      "categoria": "Transporte",
+      "subcategoria": "Caminhões",
+      "qtdEvidencias": 3,
+      "consideracao": "Entrega nos 4 super mercados",
+      "UF": "GO",
+      "date": null,
+      "latitude": "",
+      "longitude": "",
+      "evidencias": null,
+      "desdobramentos": null,
+      "idUsuario": 1,
+      "id": 1
+    }
+  ],
+
+  "municipios":[
+        {"municipio": "Acrelândia", "uf":"AC", "localizacao":{"lat": -9.825808, "lng": -66.897166}, "codigo_ibge": "1200013"}
+  ],
+  "acoes": [
+    {
+      "id": 1,
+      "titulo": "1-Um título qualquer",
+      "descricao": "A descrição da ação...",
+      "categoria": "Transportes",
+      "latitude": -15.75668,
+      "longitude": -47.871345
+    },
+    {
+      "id": 2,
+      "titulo": "2-Um título qualquer",
+      "descricao": "A descrição da ação...",
+      "categoria": "Transportes",
+      "latitude": -15.74567,
+      "longitude": -47.871345
+    },
+    {
+      "id": 3,
+      "titulo": "3-Um título qualquer",
+      "descricao": "A descrição da ação...",
+      "categoria": "Transportes",
+      "latitude": -15.77668,
+      "longitude": -47.875145
+    },
+    {
+      "id": 4,
+      "titulo": "4-Um título qualquer",
+      "descricao": "A descrição da ação...",
+      "categoria": "Transportes",
+      "latitude": -15.75668,
+      "longitude": -47.881345
+    }            
+  ],
+  "desdobramentos": [
+    {
+      "id": 1,
+      "idManifestacao": 1,
+      "data": "05/12/2015",
+      "ano": "2015",
+      "hora":"13:44",
+      "primeiro": true,
+      "finalizado":false,
+      "titulo": "Recebido",
+      "descricao": "Enviado pelo funcionário Joaquim ao departamento e contendo informações sobre portaria 15.223/2016."
+    },
+    {
+      "id": 2,
+      "idManifestacao": 1,
+      "data": "29/01/2016",
+      "ano": "2016",
+      "hora":"10:22",
+      "primeiro": false,
+      "finalizado":false,
+      "titulo": "Em análise",
+      "descricao": "15.223/2016 homologado pelo servidor x no orgao 10 ."
+     },
+     {
+      "id": 3,
+      "idManifestacao": 1,
+      "data": "03/02/2016",
+      "ano": "2016",
+      "hora":"21:13",
+      "primeiro": false,
+      "finalizado":false,
+      "titulo": "Resposta enviada",
+      "descricao": "Resposta homologada pelo servidor x no orgao 45 ."
+     },
+     {
+      "id": 4,
+      "idManifestacao": 1,
+      "data": "17/04/2016",
+      "ano": "2016",
+      "hora":"14:25",
+      "primeiro": false,
+      "finalizado":true,
+      "titulo": "Concluído",
+      "descricao": "Manifestacao concluida e cadastrada no diário oficial."
+    
+     }
+
+  ],
+  "evidencias": [
+    {
+      "id": 1,
+      "idManifestacao": 1,
+      "caminho": "http://minhaurl/images/userPhoto-1457965567164",
+      "tamanho": "2069kb",
+      "nome": "imagem.png"
+    },
+    {
+      "id": 2,
+      "idManifestacao": 1,
+      "caminho": "http://minhaurl/images/userPhoto-1457965567164",
+      "tamanho": "9969kb",
+      "nome": "imagem.png"
+    },
+    {
+      "id": 3,
+      "idManifestacao": 1,
+      "caminho": "http://minhaurl/images/userPhoto-1457965567164",
+      "tamanho": "009kb",
+      "nome": "imagem.png"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "relacionamento": "Admin",
+      "uf": "DF",
+      "nome": "Denys",
+      "email": "denys.bsb",
+      "senha":"234",
+      "idfacebook": "",
+      "idUsuario":1,
+      "device":""
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "identificador": "",
+      "titulo": "Segurança Viária",
+      "date": "11/04/2016"
+    },
+    {
+      "id": 2,
+      "identificador": "",
+      "titulo": "Fiscalização Contínua no TCU",
+      "date": "30/03/2016"
+    },
+    {
+      "id": 3,
+      "identificador": "",
+      "titulo": "#EuFiscalizo - Telecomunicações",
+      "date": "05/04/2016"
+    }
+  ],
+  "postagens": [
+    {
+      "id": 1,
+      "titulo":"Obras do TCU",
+      "conteudo": "Gostaria de enfatizar que a percepção das dificuldades facilita a criação dos conhecimentos estratégicos para atingir a excelência. O empenho em analisar a percepção das dificuldades faz parte de um processo de gerenciamento das condições inegavelmente apropriadas.",
+      "assunto": "obras",
+      "tag":"Obras",
+      "url":"https://jovemnerd.com.br/nerdnews/game-of-thrones-veja-os-bastidores-do-episodio-mais-recente-da-serie/",
+      "imagem":"http://www.acrisoft.com/i/u/1097071/i/adm/obras/obras.jpg"
+    }
+  ],
+  "assuntos": [
+      {
+        "id": 1,
+        "categoria": "saude",
+        "texto":"A Constituição Federal estabelece que a saúde é um direito de todo cidadão brasileiro. O TCU zela para que o dinheiro público federal da saúde seja bem aplicado. Conheça aqui algumas ações que o tribunal tem desenvolvido:"
+      },
+      {
+        "id": 2,
+        "categoria": "educacao",
+        "texto":"Todos têm direito a uma educação de qualidade. E para garantir esse direito, o governo precisa promover ações que vão da educação infantil ao ensino superior. Para fiscalizar o dinheiro público federal, os programas e as políticas públicas de educação, o TCU atua para que todos possam ter um futuro melhor. Acompanhe o trabalho desempenhado pelo tribunal sobre educação:"
+      }
+  ]
+}
